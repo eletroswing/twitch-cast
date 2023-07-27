@@ -83,7 +83,7 @@ export default function Home() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://twitch-cast.vercel.com" />
+        <meta property="og:url" content="https://twitch-cast.vercel.app" />
         <meta
           property="og:title"
           content="Twitch Cast: Escute suas lives da twitch em podcast!"
@@ -94,11 +94,11 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://twitch-cast.vercel.com/logo.png"
+          content="https://twitch-cast.vercel.app/logo.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://twitch-cast.vercel.com" />
+        <meta property="twitter:url" content="https://twitch-cast.vercel.app" />
         <meta
           property="twitter:title"
           content="Twitch Cast: Escute suas lives da twitch em podcast!"
@@ -109,7 +109,7 @@ export default function Home() {
         />
         <meta
           property="twitter:image"
-          content="https://twitch-cast.vercel.com/logo.png"
+          content="https://twitch-cast.vercel.app/logo.png"
         />
       </Head>
       <div
