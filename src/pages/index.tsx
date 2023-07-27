@@ -83,7 +83,7 @@ export default function Home() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://twitch-podcast.vercel.com" />
+        <meta property="og:url" content="https://twitch-cast.vercel.com" />
         <meta
           property="og:title"
           content="Twitch Cast: Escute suas lives da twitch em podcast!"
@@ -94,11 +94,11 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://twitch-podcast.vercel.com/logo.png"
+          content="https://twitch-cast.vercel.com/logo.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://twitch-podcast.vercel.com" />
+        <meta property="twitter:url" content="https://twitch-cast.vercel.com" />
         <meta
           property="twitter:title"
           content="Twitch Cast: Escute suas lives da twitch em podcast!"
@@ -109,7 +109,7 @@ export default function Home() {
         />
         <meta
           property="twitter:image"
-          content="https://twitch-podcast.vercel.com/logo.png"
+          content="https://twitch-cast.vercel.com/logo.png"
         />
       </Head>
       <div
@@ -3457,7 +3457,7 @@ export default function Home() {
         <div className="opinions">
           Feedback no{" "}
           <a
-            href="https://www.tabnews.com.br/manuelhonoredesousa/pitch-twitch-podcast-suas-lives-da-twitch-em-podcast"
+            href="https://www.tabnews.com.br/manuelhonoredesousa/pitch-twitch-cast-suas-lives-da-twitch-em-podcast"
             target="_blank"
           >
             Tabnews.
