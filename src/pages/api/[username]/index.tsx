@@ -49,6 +49,8 @@ export default async function handler(req: NextApiRequest, res:NextApiResponse){
 
   try {
     var data: Array<any> = await twitch.getStream(firstChannel.name, false);
+    let cdata = data[data.length - 1];
+    cdata.url = `api/proxy?url=${cdata.url}`
     return res.json({ data: data[data.length - 1], channel: firstChannel })
   } catch (e) {
     return res.status(404).json({})
