@@ -3457,7 +3457,7 @@ export default function Home() {
         <div className="opinions">
           Feedback no{" "}
           <a
-            href="https://www.tabnews.com.br/manuelhonoredesousa/pitch-twitch-cast-suas-lives-da-twitch-em-podcast"
+            href="https://www.tabnews.com.br/ytu/pitch-twitch-cast-suas-lives-da-twitch-em-podcast"
             target="_blank"
           >
             Tabnews.
