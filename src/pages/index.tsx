@@ -2,6 +2,7 @@ import { createRef, useEffect, useState } from "react";
 import Hls from "hls.js";
 import Head from "next/head";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function Home() {
   const audio = createRef<HTMLAudioElement>();
@@ -112,6 +113,16 @@ export default function Home() {
           content="https://twitch-cast.vercel.app/logo.png"
         />
       </Head>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-W71YYM5CPV" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-W71YYM5CPV');
+        `}
+      </Script>
       <div
         style={{
           width: "100%",
